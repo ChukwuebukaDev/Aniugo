@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Fruits HomePage</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
+    <link rel="stylesheet" href="/Aniugo-Foods/Aniugo001-aniugoFruits/aniugo-fruit-frontEnd-parse/all-aniugo-fruit-css-file/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="relative min-h-screen bg-slate-50 ">
+      <header class="z-10 sticky top-0 p-6 bg-white flex justify-between items-center">
+        <h2 class="first-head text-3xl  font-bold ">
+            <a href="#">🌱 A-Fruits</a>
+        </h2>
+        <nav class="navigation hidden ">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <div class="hidden md:flex space-x-6">
+            <a class="text-white rounded-full px-6 py-4 bg-pink-500 hover:bg-pink-300" href="#">Sign Up</a>
+            <a class="text-white hover:bg-pink-300 rounded-full px-6 py-4 bg-pink-500" href="#">Sign In</a>
+        </div>
+        <button id="mobile-open-btn" class="text-3xl sm:hidden focus:outline-none">
+            &#9776;
+          </button>
+    </header>
+   <main>
+    <div class="cart-box" id="cart" title="Checkout" draggable="true">
+        <div class="shopping-box">
+           <a href="./checkout.html" target="_blank"> &#128722;</a>
+            <div id="js-cart-quantity" class="shopping-counter">
+                0
+            </div>
+        </div>
+    </div>
+    <div id="js-product-grid" class="grid grid-cols-8 products-grid">
+   <div class="bg-pink-500"></div>
+    </div>
+   </main>
+<script type="module" src="../all-aniugo-fruit-js-file/type-module/main.js"></script>
+</body> 
+</html>

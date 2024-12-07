@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A-Food HomePage</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-slate-100 dark:bg-black dark:text-white">
+ <header class="bg-gray sticky top-0 z-10 p-4 flex justify-between items-center">
+  <h1 class="text-3xl font-medium text-white">
+   🍀 <a href="#">A-Foods</a>
+  </h1>
+  <div>
+    <button id="mobile-open-btn" class="text-3xl sm:hidden focus:outline-none">
+      &#9776;
+    </button>
+    <nav class="hidden md:block space-x-12 text-xl" aria-label="main">
+      <a href="#" class="transition-all
+      duration-200 ease-in-out hover:text-offblack hover:border-b-2 hover:border-offblack">Home</a>
+      <a href="#our-products" class="transition-all
+      duration-200 ease-in-out hover:text-offblack hover:border-b-2 ">Our Products</a>
+      <a href="#About" class="transition-all
+      duration-200 ease-in-out hover:text-offblack hover:border-b-2">About Us</a>
+      <a href="#Contact" class="transition-all
+      duration-200 ease-in-out hover:text-offblack hover:border-b-2">Contact Us</a>
+    </nav>
+  </div>
+ </header>
+ <main class="max-w-4xl m-auto">
+  <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 md:justify-between">
+    <article class="md:w-1/2">
+      <h2 class="max-w-md text-3xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
+        We Boldly Offer Services Others Haven't Offered Before...
+      </h2>
+    </article>
+    <img src="/Aniugo-Foods/Aniugo-General-Food/Images/main-logo-removebg-preview.png" class="w-3/4">
+  </section>
+  <section id="our-products" class="p-6 my-12 flex flex-col">
+    <h2 class="text-4xl font-bold text-center sm:text-5xl mb- text-offblack dark:text-white mb-8">
+      Our Products
+    </h2>
+    <div class="flex flex-col justify-between items-center md:flex-row">
+      <div class="">
+        <p class="text-center font-bold text-2xl">fruits</p>
+        <img src="../Images/fruits-removebg-preview.png"  alt="">
+      </div>
+      <div>
+        <p class="text-center font-bold text-2xl">Vegetables</p>
+        <img src="../Images/vegetables-removebg-preview.png"  >
+      </div>
+ 
+      <div>
+        <p class="text-center font-bold text-2xl">Stem Tubers</p>
+        <img src="../Images/stem-removebg-preview.png" >
+      </div>
+    </div>
+  </section>
+ 
+  <section id="About" class="p-6 my-12">
+    <h2 class="text-4xl font-bold text-center sm:text-5xl mb- text-offblack dark:text-white">
+      About Us
+    </h2>
+    <p>
+      A-Foods is a licensed company under its parent ANIUGO(conglomerate),we specialise on food distribution and supplies to all country,states and regions. Our primary objective is to ensure Consumers/Customers get there products at the confort of there homes.We offer varieties of Foods,namely:fruits,vegetables,Root Vegetables,Stem tubers,Grains and so much more.
+    </p>
+  </section>
+ 
+  <section id="Contact" class="p-6 my-12">
+    <h2 class="text-4xl font-bold text-center sm:text-5xl mb- text-offblack dark:text-white">
+      Contact Us
+    </h2>
+  </section>
+ </main>
+
+<footer class="sticky bottom-0 container m-auto bg-gray p-6 flex justify-between items-center">
+
+</footer>
+</body>
+</html>
